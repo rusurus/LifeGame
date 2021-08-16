@@ -1,0 +1,16 @@
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\bin\Debug\net5.0\LifeGame.exe
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\bin\Debug\net5.0\LifeGame.deps.json
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\bin\Debug\net5.0\LifeGame.runtimeconfig.json
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\bin\Debug\net5.0\LifeGame.runtimeconfig.dev.json
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\bin\Debug\net5.0\LifeGame.dll
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\bin\Debug\net5.0\ref\LifeGame.dll
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\bin\Debug\net5.0\LifeGame.pdb
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\obj\Debug\net5.0\LifeGame.csproj.AssemblyReference.cache
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\obj\Debug\net5.0\LifeGame.GeneratedMSBuildEditorConfig.editorconfig
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\obj\Debug\net5.0\LifeGame.AssemblyInfoInputs.cache
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\obj\Debug\net5.0\LifeGame.AssemblyInfo.cs
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\obj\Debug\net5.0\LifeGame.csproj.CoreCompileInputs.cache
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\obj\Debug\net5.0\LifeGame.dll
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\obj\Debug\net5.0\ref\LifeGame.dll
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\obj\Debug\net5.0\LifeGame.pdb
+E:\Urusov\CSharpLearning\Life\LifeGame\LifeGame\LifeGame\obj\Debug\net5.0\LifeGame.genruntimeconfig.cache
