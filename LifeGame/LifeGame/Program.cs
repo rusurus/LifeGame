@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace LifeGame
 {
@@ -22,7 +24,41 @@ namespace LifeGame
             int lifeCellsCount = cellsCount * lifeRate / 100;
             Console.WriteLine("Life cells count is " + lifeCellsCount);
             
-            
+            //generate place for live sells
+                // create all cells list
+            /* Тут нужно пояснение на русском. Простой рандом для размещения живых клеток не подошёл,
+            потомучто он мог выдать повторяющиеся числа, а значит количество живых клеток уменьшилось.
+            Чтобы гарантировать нужное количество живых клеток, я создал List со списком всех клеток.
+            Потом я рандомизировал список и брал из него первые Н элементов подходящих мне.
+            Уверен, что есть более лёгкие способы, но мне они оказались не под силу.
+             */ 
+            List<int> allPlaceList = new List<int>();
+            for (int i = 0; i < firstGeneration.Length; i++) {
+                allPlaceList.Add(i);
+            }
+                //randomize all cells list
+            List<int> aliveRandomPlaceList = new List<int>();
+            var rnd = new Random();
+            var randomized = allPlaceList.OrderBy(item => rnd.Next());
+            foreach(var value in randomized){
+                aliveRandomPlaceList.Add(value);
+            }
+                //place alive cells in universe
+            for (int i = 0; i < lifeCellsCount; i++) {
+                int xCoordinat = aliveRandomPlaceList[i] / arraySize;
+                int yCoordinat = aliveRandomPlaceList[i] % arraySize;
+                firstGeneration[xCoordinat, yCoordinat] = 1;
+            }
+
+            // print universe map
+             Console.WriteLine("First generation universe map is: ");
+             for (int i = 0; i < arraySize; i++) {
+                 for (int j = 0; j < arraySize; j++ ) {
+                     Console.Write("{0}\t", firstGeneration[i,j]);
+                 }
+                 Console.WriteLine();
+             }
+
 
         }
     }
