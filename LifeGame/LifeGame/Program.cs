@@ -12,6 +12,7 @@ namespace LifeGame
             Console.WriteLine("Hello! Enter universe size. From 1 to 255:");
             byte arraySize = Convert.ToByte(Console.ReadLine());
             byte[,] firstGeneration = new byte[arraySize,arraySize];
+            byte[,] secondGeneration = new byte[arraySize,arraySize];
             
             //calculating cells count
             int cellsCount = Convert.ToInt32(Math.Pow(arraySize, 2));
@@ -50,7 +51,7 @@ namespace LifeGame
                 firstGeneration[xCoordinat, yCoordinat] = 1;
             }
 
-            // print universe map
+            // print firs generation universe map
              Console.WriteLine("First generation universe map is: ");
              for (int i = 0; i < arraySize; i++) {
                  for (int j = 0; j < arraySize; j++ ) {
@@ -58,6 +59,20 @@ namespace LifeGame
                  }
                  Console.WriteLine();
              }
+
+             for (int i = 0; i < arraySize; i++) {
+                 for (int j = 0; j < arraySize; j++ ) {
+                     // counting neighborhood summ
+                     int neighborhoodSum = 0;
+                     
+                     neighborhoodSum = neighborhoodSum + firstGeneration[x, y];
+                     secondGeneration[i, j] = 1;
+                 }
+                 Console.WriteLine();
+             }
+     
+                 
+                 
 
 
         }
