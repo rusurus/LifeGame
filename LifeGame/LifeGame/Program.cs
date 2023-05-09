@@ -40,7 +40,7 @@ namespace LifeGame
                 //randomize all cells list
             List<int> aliveRandomPlaceList = new List<int>();
             var rnd = new Random();
-            var randomized = allPlaceList.OrderBy(item => rnd.Next());
+            var randomized = allPlaceList.OrderBy(2item => rnd.Next());
             foreach(var value in randomized){
                 aliveRandomPlaceList.Add(value);
             }

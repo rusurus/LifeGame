@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "O761cjmNENBJnzsLRa4+yGFD2fhYjKNHI7dSJycO+7XPKydujB+YQ6C6WAvl/JlIzhIjZb2CMnKrGJu3o3RhDg==",
+  "dgSpecHash": "JVuQGI4RtpfzTRGQm0T9JDmChkOFHZLcAgZEZP59akFYSO6MDqbYtG1hBD4DCiZ+PIsUAqRNqI8e82K8pvJqRg==",
   "success": true,
-  "projectFilePath": "E:\\Urusov\\CSharpLearning\\Life\\LifeGame\\LifeGame\\LifeGame\\LifeGame.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\rusurus\\Обучение\\CSharp\\LifeGame\\LifeGame\\LifeGame\\LifeGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rusurus\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\rusurus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\rusurus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\rusurus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
